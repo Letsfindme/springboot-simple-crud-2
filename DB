@@ -1,0 +1,34 @@
+ 
+DROP TABLE IF EXISTS acteur;
+CREATE TABLE Acteur
+(
+ID int NOT NULL AUTO_INCREMENT,
+firstname VARCHAR(255),
+name VARCHAR(255),
+address VARCHAR(255),
+email VARCHAR(255),
+phone VARCHAR(255)
+);
+
+
+INSERT into acteur
+(firstname, name, address,email,phone)
+values('Fadi','NOUFAL','nanterre','gmail',09090909);
+
+
+
+
+DROP TABLE IF EXISTS FILM;
+CREATE TABLE FILM
+(
+ID INT NOT NULL AUTO_INCREMENT,
+NAME VARCHAR(50),
+RATE INT,
+YEAR INT
+);
+
+
+INSERT INTO FILM
+(name, rate, year)
+VALUES
+('FADI',5,1990);
